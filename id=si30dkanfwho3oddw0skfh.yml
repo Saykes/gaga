@@ -5,71 +5,87 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: TiFAN VIP：欢迎使用TiFAN网络隧道VIP服务。, server: 127.0.0.1, port: 80, type: vmess, uuid: 4c377063-53b5-47a7-b8f9-e9fba9d760ef, alterId: 0, cipher: auto, tls: false}
+  - {name: TiFAN VIP：我们的QQ社群为：1071410755, server: 127.0.0.1, port: 80, type: vmess, uuid: 4c377063-53b5-47a7-b8f9-e9fba9d760ef, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 【主力】TiFAN1-美国CDN加速-VIP, server: 104.19.66.48, port: 443, type: vmess, uuid: 40d52116-18d0-46c7-927a-63a104ebbc92, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us1vips98w2.tifan.ga}}
   - {name: 🇺🇸 【主力】TiFAN2-美国CDN加速-VIP, server: 104.19.52.162, port: 443, type: vmess, uuid: bac28b56-60c9-4e85-a80a-c55c7fd51ae4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us2vipd09si.tifan.ga}}
   - {name: 🇺🇸 【主力】TiFAN3-美国CDN加速-VIP, server: 104.19.45.89, port: 443, type: vmess, uuid: 71f34506-9113-41af-b50c-1d755153515a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us3vips9wie.tifan.ga}}
   - {name: 🇺🇸 【主力】TiFAN4-美国CDN加速-VIP, server: 104.19.6.156, port: 443, type: vmess, uuid: 761e3214-8861-45cd-92a8-3ef34c5f43f4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us4vips0wp3.tifan.ga}}
   - {name: 🇮🇪 【主力】TiFAN5-爱尔兰CDN加速-VIP, server: 104.19.57.35, port: 443, type: vmess, uuid: ca7da47a-4913-4aed-87db-5a15a0a00b28, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eur1vipsoxp0.tifan.ga}}
   - {name: 🇮🇪 【主力】TiFAN6-爱尔兰CDN加速-VIP, server: 104.19.49.48, port: 443, type: vmess, uuid: 13e9c660-f149-42da-8028-6c81d0937ad5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eur2vipswsd.tifan.ga}}
-  - {name: 🇺🇸 TiFAN7-美国原生直连-VIP, server: us1vips98w2.tifan.ga, port: 443, type: vmess, uuid: 40d52116-18d0-46c7-927a-63a104ebbc92, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us1vips98w2.tifan.ga}}
-  - {name: 🇺🇸 TiFAN8-美国直连原生-VIP, server: us2vipd09si.tifan.ga, port: 443, type: vmess, uuid: bac28b56-60c9-4e85-a80a-c55c7fd51ae4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us2vipd09si.tifan.ga}}
-  - {name: 🇺🇸 TiFAN9-美国直连原生-VIP, server: us3vips9wie.tifan.ga, port: 443, type: vmess, uuid: 71f34506-9113-41af-b50c-1d755153515a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us3vips9wie.tifan.ga}}
-  - {name: 🇺🇸 TiFAN10-美国直连原生-VIP, server: us4vips0wp3.tifan.ga, port: 443, type: vmess, uuid: 761e3214-8861-45cd-92a8-3ef34c5f43f4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us4vips0wp3.tifan.ga}}
-  - {name: 🇮🇪 TiFAN11-爱尔兰直连原生-VIP, server: eur1vipsoxp0.tifan.ga, port: 443, type: vmess, uuid: ca7da47a-4913-4aed-87db-5a15a0a00b28, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eur1vipsoxp0.tifan.ga}}
-  - {name: 🇮🇪 TiFAN12-爱尔兰直连原生-VIP, server: eur2vipswsd.tifan.ga, port: 443, type: vmess, uuid: 13e9c660-f149-42da-8028-6c81d0937ad5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eur2vipswsd.tifan.ga}}
+  - {name: 🇩🇪 【主力】TiFAN7-德国CDN加速-VIP, server: 104.19.48.39, port: 443, type: vmess, uuid: dd797b86-2bde-11eb-91bb-b1c7ed9f357f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: de1vipsoad9.tifannet.ga}}
+  - {name: 🇺🇸 TiFAN8-美国原生直连-VIP, server: us1vips98w2.tifan.ga, port: 443, type: vmess, uuid: 40d52116-18d0-46c7-927a-63a104ebbc92, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us1vips98w2.tifan.ga}}
+  - {name: 🇺🇸 TiFAN9-美国直连原生-VIP, server: us2vipd09si.tifan.ga, port: 443, type: vmess, uuid: bac28b56-60c9-4e85-a80a-c55c7fd51ae4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us2vipd09si.tifan.ga}}
+  - {name: 🇺🇸 TiFAN10-美国直连原生-VIP, server: us3vips9wie.tifan.ga, port: 443, type: vmess, uuid: 71f34506-9113-41af-b50c-1d755153515a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us3vips9wie.tifan.ga}}
+  - {name: 🇺🇸 TiFAN11-美国直连原生-VIP, server: us4vips0wp3.tifan.ga, port: 443, type: vmess, uuid: 761e3214-8861-45cd-92a8-3ef34c5f43f4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us4vips0wp3.tifan.ga}}
+  - {name: 🇮🇪 TiFAN12-爱尔兰直连原生-VIP, server: eur1vipsoxp0.tifan.ga, port: 443, type: vmess, uuid: ca7da47a-4913-4aed-87db-5a15a0a00b28, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eur1vipsoxp0.tifan.ga}}
+  - {name: 🇮🇪 TiFAN13-爱尔兰直连原生-VIP, server: eur2vipswsd.tifan.ga, port: 443, type: vmess, uuid: 13e9c660-f149-42da-8028-6c81d0937ad5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: eur2vipswsd.tifan.ga}}
+  - {name: 🇩🇪 TiFAN14-德国直连原生-VIP, server: de1vipsoad9.tifannet.ga, port: 443, type: vmess, uuid: dd797b86-2bde-11eb-91bb-b1c7ed9f357f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: de1vipsoad9.tifannet.ga}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - TiFAN VIP：欢迎使用TiFAN网络隧道VIP服务。
+      - TiFAN VIP：我们的QQ社群为：1071410755
       - 🇺🇸 【主力】TiFAN1-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN2-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN3-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN4-美国CDN加速-VIP
       - 🇮🇪 【主力】TiFAN5-爱尔兰CDN加速-VIP
       - 🇮🇪 【主力】TiFAN6-爱尔兰CDN加速-VIP
-      - 🇺🇸 TiFAN7-美国原生直连-VIP
-      - 🇺🇸 TiFAN8-美国直连原生-VIP
+      - 🇩🇪 【主力】TiFAN7-德国CDN加速-VIP
+      - 🇺🇸 TiFAN8-美国原生直连-VIP
       - 🇺🇸 TiFAN9-美国直连原生-VIP
       - 🇺🇸 TiFAN10-美国直连原生-VIP
-      - 🇮🇪 TiFAN11-爱尔兰直连原生-VIP
+      - 🇺🇸 TiFAN11-美国直连原生-VIP
       - 🇮🇪 TiFAN12-爱尔兰直连原生-VIP
+      - 🇮🇪 TiFAN13-爱尔兰直连原生-VIP
+      - 🇩🇪 TiFAN14-德国直连原生-VIP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - TiFAN VIP：欢迎使用TiFAN网络隧道VIP服务。
+      - TiFAN VIP：我们的QQ社群为：1071410755
       - 🇺🇸 【主力】TiFAN1-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN2-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN3-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN4-美国CDN加速-VIP
       - 🇮🇪 【主力】TiFAN5-爱尔兰CDN加速-VIP
       - 🇮🇪 【主力】TiFAN6-爱尔兰CDN加速-VIP
-      - 🇺🇸 TiFAN7-美国原生直连-VIP
-      - 🇺🇸 TiFAN8-美国直连原生-VIP
+      - 🇩🇪 【主力】TiFAN7-德国CDN加速-VIP
+      - 🇺🇸 TiFAN8-美国原生直连-VIP
       - 🇺🇸 TiFAN9-美国直连原生-VIP
       - 🇺🇸 TiFAN10-美国直连原生-VIP
-      - 🇮🇪 TiFAN11-爱尔兰直连原生-VIP
+      - 🇺🇸 TiFAN11-美国直连原生-VIP
       - 🇮🇪 TiFAN12-爱尔兰直连原生-VIP
+      - 🇮🇪 TiFAN13-爱尔兰直连原生-VIP
+      - 🇩🇪 TiFAN14-德国直连原生-VIP
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - TiFAN VIP：欢迎使用TiFAN网络隧道VIP服务。
+      - TiFAN VIP：我们的QQ社群为：1071410755
       - 🇺🇸 【主力】TiFAN1-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN2-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN3-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN4-美国CDN加速-VIP
       - 🇮🇪 【主力】TiFAN5-爱尔兰CDN加速-VIP
       - 🇮🇪 【主力】TiFAN6-爱尔兰CDN加速-VIP
-      - 🇺🇸 TiFAN7-美国原生直连-VIP
-      - 🇺🇸 TiFAN8-美国直连原生-VIP
+      - 🇩🇪 【主力】TiFAN7-德国CDN加速-VIP
+      - 🇺🇸 TiFAN8-美国原生直连-VIP
       - 🇺🇸 TiFAN9-美国直连原生-VIP
       - 🇺🇸 TiFAN10-美国直连原生-VIP
-      - 🇮🇪 TiFAN11-爱尔兰直连原生-VIP
+      - 🇺🇸 TiFAN11-美国直连原生-VIP
       - 🇮🇪 TiFAN12-爱尔兰直连原生-VIP
+      - 🇮🇪 TiFAN13-爱尔兰直连原生-VIP
+      - 🇩🇪 TiFAN14-德国直连原生-VIP
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -80,53 +96,65 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - TiFAN VIP：欢迎使用TiFAN网络隧道VIP服务。
+      - TiFAN VIP：我们的QQ社群为：1071410755
       - 🇺🇸 【主力】TiFAN1-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN2-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN3-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN4-美国CDN加速-VIP
       - 🇮🇪 【主力】TiFAN5-爱尔兰CDN加速-VIP
       - 🇮🇪 【主力】TiFAN6-爱尔兰CDN加速-VIP
-      - 🇺🇸 TiFAN7-美国原生直连-VIP
-      - 🇺🇸 TiFAN8-美国直连原生-VIP
+      - 🇩🇪 【主力】TiFAN7-德国CDN加速-VIP
+      - 🇺🇸 TiFAN8-美国原生直连-VIP
       - 🇺🇸 TiFAN9-美国直连原生-VIP
       - 🇺🇸 TiFAN10-美国直连原生-VIP
-      - 🇮🇪 TiFAN11-爱尔兰直连原生-VIP
+      - 🇺🇸 TiFAN11-美国直连原生-VIP
       - 🇮🇪 TiFAN12-爱尔兰直连原生-VIP
+      - 🇮🇪 TiFAN13-爱尔兰直连原生-VIP
+      - 🇩🇪 TiFAN14-德国直连原生-VIP
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - TiFAN VIP：欢迎使用TiFAN网络隧道VIP服务。
+      - TiFAN VIP：我们的QQ社群为：1071410755
       - 🇺🇸 【主力】TiFAN1-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN2-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN3-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN4-美国CDN加速-VIP
       - 🇮🇪 【主力】TiFAN5-爱尔兰CDN加速-VIP
       - 🇮🇪 【主力】TiFAN6-爱尔兰CDN加速-VIP
-      - 🇺🇸 TiFAN7-美国原生直连-VIP
-      - 🇺🇸 TiFAN8-美国直连原生-VIP
+      - 🇩🇪 【主力】TiFAN7-德国CDN加速-VIP
+      - 🇺🇸 TiFAN8-美国原生直连-VIP
       - 🇺🇸 TiFAN9-美国直连原生-VIP
       - 🇺🇸 TiFAN10-美国直连原生-VIP
-      - 🇮🇪 TiFAN11-爱尔兰直连原生-VIP
+      - 🇺🇸 TiFAN11-美国直连原生-VIP
       - 🇮🇪 TiFAN12-爱尔兰直连原生-VIP
+      - 🇮🇪 TiFAN13-爱尔兰直连原生-VIP
+      - 🇩🇪 TiFAN14-德国直连原生-VIP
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - TiFAN VIP：欢迎使用TiFAN网络隧道VIP服务。
+      - TiFAN VIP：我们的QQ社群为：1071410755
       - 🇺🇸 【主力】TiFAN1-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN2-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN3-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN4-美国CDN加速-VIP
       - 🇮🇪 【主力】TiFAN5-爱尔兰CDN加速-VIP
       - 🇮🇪 【主力】TiFAN6-爱尔兰CDN加速-VIP
-      - 🇺🇸 TiFAN7-美国原生直连-VIP
-      - 🇺🇸 TiFAN8-美国直连原生-VIP
+      - 🇩🇪 【主力】TiFAN7-德国CDN加速-VIP
+      - 🇺🇸 TiFAN8-美国原生直连-VIP
       - 🇺🇸 TiFAN9-美国直连原生-VIP
       - 🇺🇸 TiFAN10-美国直连原生-VIP
-      - 🇮🇪 TiFAN11-爱尔兰直连原生-VIP
+      - 🇺🇸 TiFAN11-美国直连原生-VIP
       - 🇮🇪 TiFAN12-爱尔兰直连原生-VIP
+      - 🇮🇪 TiFAN13-爱尔兰直连原生-VIP
+      - 🇩🇪 TiFAN14-德国直连原生-VIP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -142,18 +170,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - TiFAN VIP：欢迎使用TiFAN网络隧道VIP服务。
+      - TiFAN VIP：我们的QQ社群为：1071410755
       - 🇺🇸 【主力】TiFAN1-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN2-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN3-美国CDN加速-VIP
       - 🇺🇸 【主力】TiFAN4-美国CDN加速-VIP
       - 🇮🇪 【主力】TiFAN5-爱尔兰CDN加速-VIP
       - 🇮🇪 【主力】TiFAN6-爱尔兰CDN加速-VIP
-      - 🇺🇸 TiFAN7-美国原生直连-VIP
-      - 🇺🇸 TiFAN8-美国直连原生-VIP
+      - 🇩🇪 【主力】TiFAN7-德国CDN加速-VIP
+      - 🇺🇸 TiFAN8-美国原生直连-VIP
       - 🇺🇸 TiFAN9-美国直连原生-VIP
       - 🇺🇸 TiFAN10-美国直连原生-VIP
-      - 🇮🇪 TiFAN11-爱尔兰直连原生-VIP
+      - 🇺🇸 TiFAN11-美国直连原生-VIP
       - 🇮🇪 TiFAN12-爱尔兰直连原生-VIP
+      - 🇮🇪 TiFAN13-爱尔兰直连原生-VIP
+      - 🇩🇪 TiFAN14-德国直连原生-VIP
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
